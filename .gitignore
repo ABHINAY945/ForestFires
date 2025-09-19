@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Large datasets (optional: keep if you want to push small CSVs)
+*.csv
+*.tsv
+*.xlsx
+
+# Ignore model artifacts only if you don’t want to push all
+# But allow specific pkl models
+!models/*.pkl
